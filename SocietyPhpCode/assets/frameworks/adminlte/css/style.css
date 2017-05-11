@@ -1,0 +1,40 @@
+.with-border{border:1px solid #f4f4f4;}
+
+.box-header {border-bottom: 1px solid #f4f4f4;}
+
+.box-footer{border-top: 1px solid #f4f4f4;}
+
+.createoffer_btn .color_add{margin-right: 10px;}
+
+.user_create_btn button{margin-right: 10px;}
+
+.societies_btn .color_add{margin-right: 10px;}
+
+.edit_user button{margin-right: 10px;}
+
+.societies_btn .btn:hover{color:#fff;}
+/*
+.skin-blue .main-header .logo {background-color: #00a65a;}
+
+.skin-blue .main-header .navbar{background-color: #00a65a;}*/
+
+/*.main-header .navbar .sidebar-toggle:hover{background-color: #008d4c !important;}
+
+.main-header a:hover{background-color: #0ca05c !important}*/
+
+.logo-lg img{width:100%;}
+
+/*.skin-blue .sidebar-menu>li:hover>a, .skin-blue .sidebar-menu>li.active>a{border-left-color:#00a65a;}*/
+
+.login-page .wrapper{
+	background-image: url(../images/bg2.jpg);
+    /*background-position: 50% 50%;*/
+    height: calc(100vh - 0px);
+    background-repeat: no-repeat;
+    background-size: cover; }
+
+
+.login-box-body {background-color: rgba(255, 255, 255, 0.7);}
+
+.member_block .dl-horizontal dt {width: 175px;}
+.member_block .dl-horizontal dd {margin-left: 195px;}
