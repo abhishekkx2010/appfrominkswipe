@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/archivedMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <com.inkswipe.SocialSociety.MyTextViewBold
+                android:id="@+id/eventofmonthTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event of Month: "
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textColor="@android:color/black"/>
+            <com.inkswipe.SocialSociety.MyTextViewBold
+                android:id="@+id/eventofmonth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nov,2016"
+                android:maxLines="1"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:textSize="17sp"
+
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <com.inkswipe.SocialSociety.MyTextViewBold
+            android:id="@+id/eventname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BirthDay Party"
+            android:textColor="@color/color_primary"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <com.inkswipe.SocialSociety.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created by, "
+                android:textSize="15sp"
+
+                android:textColor="@android:color/black"/>
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/createdby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="15sp"
+
+                android:textColor="#525252"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <com.inkswipe.SocialSociety.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event on "
+                android:textSize="15sp"
+                android:textColor="@android:color/black"/>
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28th Nov 2016 "
+                android:textSize="15sp"
+
+                android:textColor="#525252"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <com.inkswipe.SocialSociety.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="At "
+                android:textSize="15sp"
+                android:textColor="@android:color/black"/>
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8pm"
+                android:textSize="15sp"
+
+                android:textColor="#525252"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The Akshay patra Foundation,Plot # 2,Kesari Nilayam \nKrishna Nagar Colony,Picket,Secundarabad,\nHyderabad-500015 "
+                android:singleLine="true"
+                android:textSize="15sp"
+
+                android:textColor="#525252"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="bottom"
+            android:background="@android:color/darker_gray"/>
+
+    </LinearLayout>
+
+</LinearLayout>

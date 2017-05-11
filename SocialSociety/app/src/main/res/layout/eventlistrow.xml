@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:id="@+id/eventListMain"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp">
+
+
+    <com.inkswipe.SocialSociety.MyTextViewBold
+        android:id="@+id/eventname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Birthday Party"
+        android:textColor="@color/color_primary"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+    <ImageView
+        android:id="@+id/imaget"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/backimght"
+        android:background="@mipmap/cover_image"
+        android:layout_marginTop="5dp"
+        android:scaleType="fitXY"
+       />
+
+
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp">
+        <com.inkswipe.SocialSociety.MyTextViewBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Created by, "
+            android:textSize="13sp"
+            android:textColor="@color/black"/>
+        <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/createdby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="13sp"
+            android:textColor="@color/black"/>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="right">
+           <com.inkswipe.SocialSociety.MyTextView
+               android:id="@+id/daysago"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="2 days ago"
+               android:textSize="13sp"
+               android:layout_gravity="right"
+               android:textColor="@color/black"/>
+           </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+        <com.inkswipe.SocialSociety.MyTextViewBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Event on "
+            android:textSize="13sp"
+
+            android:textColor="@color/black"/>
+        <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28th Nov 2016 , 8pm"
+            android:textSize="14sp"
+
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="2dp">
+        <com.inkswipe.SocialSociety.MyTextViewBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="At "
+            android:textSize="13sp"
+
+            android:textColor="@color/black"/>
+        <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28th Nov 2016 , 8pm"
+            android:textSize="14sp"
+
+            android:textColor="@color/black"/>
+    </LinearLayout>
+    <com.inkswipe.SocialSociety.MyTextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="We request all the society members to join them ....in the birthday party which will be celebrated on............. Saturday,1st Oct 2016 from 5.30 to 8.30 pm at Sindhu"
+        android:layout_marginTop="5dp"
+        android:textColor="#707070"
+        android:textSize="15sp"/>
+
+
+
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="bottom"
+        android:background="#d9d9d9"/>
+</LinearLayout>

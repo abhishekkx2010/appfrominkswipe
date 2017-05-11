@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="@dimen/user_layout"
+                android:layout_height="@dimen/user_layout">
+            <RelativeLayout
+                android:id="@+id/profilepicview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/image_background"
+                android:padding="2dp">
+
+                <ImageView
+                    android:id="@+id/userImage"
+                    android:layout_width="@dimen/imagewidht"
+                    android:layout_height="@dimen/imagewidht"
+                    android:src="@mipmap/fallb"
+                    android:scaleType="fitXY"
+                    android:layout_centerInParent="true"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:id="@+id/camera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/cameraimg"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="3dp"
+                    android:padding="15dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        />
+                </RelativeLayout>
+
+            </RelativeLayout>
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginLeft="10dp"
+                android:maxLines="2"
+                android:layout_marginRight="10dp"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_vertical"/>
+        </LinearLayout>
+<LinearLayout
+    android:id="@+id/coverImage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentBottom="true"
+    android:padding="20dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/camerabig"
+            />
+</LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

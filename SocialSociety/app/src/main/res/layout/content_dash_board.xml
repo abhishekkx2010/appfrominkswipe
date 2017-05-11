@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.inkswipe.SocialSociety.DashBoard"
+    tools:showIn="@layout/activity_dash_board"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/imagelay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="16dp"
+        >
+
+        <RelativeLayout
+            android:id="@+id/profilepicview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/image_background"
+            android:padding="1dp">
+
+        <ImageView
+            android:id="@+id/rphoto"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/fallb"
+            />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profilepicview"
+            android:orientation="vertical">
+
+        <com.inkswipe.SocialSociety.MyTextViewBold
+            android:id="@+id/dashname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profilepicview"
+            android:text="Ajinkya"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:textColor="@android:color/black"
+            android:layout_centerVertical="true"
+            />
+
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/societydashname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dashname"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="2dp"
+                android:text="jdfjfjsf"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_below="@id/imagelay"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ffffff"
+        app:tabGravity="fill"
+        app:tabMode="fixed"
+        app:tabIndicatorColor="#ffffff"
+        app:tabIndicatorHeight="0dp"
+        app:tabPaddingStart="0dp"
+        app:tabPaddingEnd="0dp"/>
+    <FrameLayout
+        android:layout_below="@+id/tabs"
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</RelativeLayout>

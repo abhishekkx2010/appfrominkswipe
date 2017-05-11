@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.inkswipe.SocialSociety.SearchSociety"
+    tools:showIn="@layout/activity_search_society"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <com.inkswipe.SocialSociety.MyEditTextView
+        android:id="@+id/socname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Society Name"
+        android:singleLine="true"
+        android:maxLength="100"
+        android:imeOptions="actionNext"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/color_hint"
+        android:layout_marginTop="@dimen/login_edittext_top"
+        android:textSize="@dimen/text_size"
+        />
+    <com.inkswipe.SocialSociety.MyEditTextView
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pincode"
+        android:maxLength="6"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/color_hint"
+        android:layout_marginTop="@dimen/login_edittext_top"
+        android:textSize="@dimen/text_size"
+        android:inputType="number"
+        />
+
+    <LinearLayout
+        android:id="@+id/searchsoc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fourborderregister"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/login_button_top">
+
+        <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search Society"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold"
+            android:padding="@dimen/button_padding"/>
+
+    </LinearLayout>
+
+</LinearLayout>

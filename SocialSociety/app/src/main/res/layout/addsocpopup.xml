@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/tickcircle"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <com.inkswipe.SocialSociety.MyTextViewBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thank You"
+        android:layout_marginTop="@dimen/login_edittext_top"
+        android:textColor="@color/color_primary"
+        android:textSize="20sp"
+        android:gravity="center"/>
+
+        <com.inkswipe.SocialSociety.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Admin will get back to you!"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:gravity="center"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="20dp"></View>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+       <!-- <Button
+            android:id="@+id/Ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:textStyle="bold"
+            android:text="Ok"
+            android:background="@color/color_primary"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center"/>-->
+
+
+            <LinearLayout
+                android:id="@+id/verifyb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fourborderregister"
+                android:gravity="center"
+                android:layout_marginTop="14dp"
+                android:layout_gravity="right"
+                >
+
+                <com.inkswipe.SocialSociety.MyTextViewBold
+                    android:id="@+id/loginButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ok"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:paddingRight="35dp"
+                    android:paddingLeft="35dp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="20dp"></View>
+    </LinearLayout>
+
+
+
+</LinearLayout>

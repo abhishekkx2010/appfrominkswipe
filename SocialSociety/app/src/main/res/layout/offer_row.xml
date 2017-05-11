@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="5dp">
+        <ImageView
+            android:id="@+id/offerLogo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/fallb"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+            <com.inkswipe.SocialSociety.MyTextViewBold
+                android:id="@+id/brandName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="Craftesvilla"
+                android:textSize="@dimen/text_size_forget"/>
+
+            <com.inkswipe.SocialSociety.MyTextViewBold
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="category"
+                android:textSize="@dimen/text_size_forget"/>
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#525252"
+                android:text="want to update your style ? check our all new collection today and e the first to grab the style you love,all great prices.Shop Now!"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/offerImage"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/backimght"
+        android:scaleType="fitXY"
+        android:src="@mipmap/cover_image"/>
+
+    <LinearLayout
+        android:id="@+id/share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:visibility="gone">
+        <RelativeLayout
+            android:background="#999999"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="5dp">
+            <ImageView
+                android:id="@+id/sharedots"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/share"
+                android:scaleType="fitXY"
+                />
+        </RelativeLayout>
+        <com.inkswipe.SocialSociety.MyTextViewBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size_forget"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

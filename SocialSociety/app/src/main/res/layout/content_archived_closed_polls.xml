@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.inkswipe.SocialSociety.ArchivedClosedPolls"
+    tools:showIn="@layout/activity_archived_closed_polls"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarThumbVertical="@drawable/scroll_bar_color"
+        android:layout_marginBottom="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="15dp">
+
+        <com.inkswipe.SocialSociety.MyTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/color_primary"
+            android:layout_marginTop="20dp"
+            android:textSize="19sp"
+            android:textStyle="bold"
+            android:text="This Poll is closed."/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="@mipmap/fallb"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:orientation="vertical">
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/creatorName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:gravity="top"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp"/>
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/createdDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:layout_marginTop="1.5dp"
+                    android:textColor="#525252"
+                    android:textSize="14sp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <com.inkswipe.SocialSociety.MyTextViewBold
+            android:id="@+id/pollTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Poll Title"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="19sp"
+            android:layout_marginTop="8dp"/>
+
+        <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/pollQuestion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="17sp"
+            android:layout_marginTop="4dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+            <com.inkswipe.SocialSociety.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="End Date :"
+                android:textSize="15sp"
+                android:textColor="@color/color_primary"/>
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/enddate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginLeft="10dp"
+                android:textSize="15sp"
+                android:textColor="@color/color_primary"/>
+
+
+        </LinearLayout>
+
+
+      <RelativeLayout
+          android:id="@+id/opt1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="15dp">
+
+          <RelativeLayout
+              android:id="@+id/ansrel"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_toLeftOf="@+id/groupImage">
+
+              <com.inkswipe.SocialSociety.MyTextView
+                  android:id="@+id/ans"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Answer 1: "
+                  android:textColor="#525252"
+                  android:textSize="15sp"/>
+
+              <com.inkswipe.SocialSociety.MyTextView
+                  android:id="@+id/option1"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_toRightOf="@+id/ans"
+                  android:textColor="@android:color/black"
+                  android:text=""/>
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/vote1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="5dp"
+                    android:text="0 Vote"/>
+
+
+
+
+          </RelativeLayout>
+
+          <RelativeLayout
+              android:id="@+id/numprog"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_toLeftOf="@+id/groupImage"
+              android:layout_marginTop="8dp"
+              android:layout_below="@+id/ansrel">
+
+             <!-- <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@android:color/black"
+                  android:text="ujsfshjsfjkl"/>-->
+
+              <com.inkswipe.SocialSociety.NumberProgressBar
+                  android:layout_marginLeft="5dp"
+                  android:id="@+id/number_progress_bar"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_centerInParent="true"
+                  app:progress_unreached_color="@color/color_primary"
+                  app:progress_text_color="@color/color_primary"
+                  app:progress_reached_color="#212a63"
+                  />
+
+          </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/groupImage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:onClick="grClick"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/usergrf"/>
+
+
+      </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/opt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <RelativeLayout
+                android:id="@+id/ansrel2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/groupImage2">
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/ans2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Answer 2: "
+                    android:textColor="#525252"
+                    android:textSize="15sp"/>
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/option2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/ans2"
+                    android:textColor="@android:color/black"
+                    android:text=""/>
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/vote2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="5dp"
+                    android:text="0 Vote"/>
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/numprog2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/groupImage2"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/ansrel2">
+
+                <!-- <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@android:color/black"
+                     android:text="ujsfshjsfjkl"/>-->
+
+                <com.inkswipe.SocialSociety.NumberProgressBar
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/number_progress_bar2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    app:progress_unreached_color="@color/color_primary"
+                    app:progress_text_color="@color/color_primary"
+                    app:progress_reached_color="#212a63"
+                    />
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/groupImage2"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="grClick"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/usergrf"/>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/opt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <RelativeLayout
+                android:id="@+id/ansrel3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/groupImage3">
+
+                 <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/ans3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Answer 3: "
+                    android:textColor="#525252"
+                    android:textSize="15sp"/>
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/option3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/ans3"
+                    android:textColor="@android:color/black"
+                    android:text=""/>
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/vote3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="5dp"
+                    android:text="0 Vote"/>
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/numprog3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/groupImage3"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/ansrel3">
+
+                <!-- <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@android:color/black"
+                     android:text="ujsfshjsfjkl"/>-->
+
+                <com.inkswipe.SocialSociety.NumberProgressBar
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/number_progress_bar3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    app:progress_unreached_color="@color/color_primary"
+                    app:progress_text_color="@color/color_primary"
+                    app:progress_reached_color="#212a63"
+                    />
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/groupImage3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="grClick"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/usergrf"/>
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/opt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <RelativeLayout
+                android:id="@+id/ansrel4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/groupImage4">
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/ans4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Answer 4: "
+                    android:textColor="#525252"
+                    android:textSize="15sp"/>
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/option4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/ans4"
+                    android:layout_toLeftOf="@+id/vote4"
+                    android:textColor="@android:color/black"
+                    android:text=""/>
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/vote4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="5dp"
+                    android:text="0 Vote"/>
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/numprog4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/groupImage4"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/ansrel4">
+
+                <!-- <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@android:color/black"
+                     android:text="ujsfshjsfjkl"/>-->
+
+                <com.inkswipe.SocialSociety.NumberProgressBar
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/number_progress_bar4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    app:progress_unreached_color="@color/color_primary"
+                    app:progress_text_color="@color/color_primary"
+                    app:progress_reached_color="#212a63"
+                    />
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/groupImage4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="grClick"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/usergrf"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/opt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <RelativeLayout
+                android:id="@+id/ansrel5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/groupImage5">
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/ans5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Answer 5:"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/option5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/ans5"
+                    android:textColor="@android:color/black"
+                    android:text=""/>
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/vote5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="5dp"
+                    android:text="0 Vote"/>
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/numprog5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/groupImage5"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/ansrel5">
+
+                <!-- <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@android:color/black"
+                     android:text="ujsfshjsfjkl"/>-->
+
+                <com.inkswipe.SocialSociety.NumberProgressBar
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/number_progress_bar5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    app:progress_unreached_color="@color/color_primary"
+                    app:progress_text_color="@color/color_primary"
+                    app:progress_reached_color="#212a63"
+                    />
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/groupImage5"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="grClick"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/usergrf"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/opt6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp">
+
+            <RelativeLayout
+                android:id="@+id/ansrel6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/groupImage6">
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/ans6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Answer 6:"
+                    android:textColor="@android:color/black"
+                    android:textSize="15sp"/>
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/option6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/ans6"
+                    android:textColor="@android:color/black"
+                    android:text="May be"/>
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/vote6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@android:color/black"
+                    android:layout_marginRight="5dp"
+                    android:text="8000 Vote"/>
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/numprog6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/groupImage6"
+                android:layout_marginTop="8dp"
+                android:layout_below="@+id/ansrel6">
+
+                <!-- <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textColor="@android:color/black"
+                     android:text="ujsfshjsfjkl"/>-->
+
+                <com.inkswipe.SocialSociety.NumberProgressBar
+                    android:layout_marginLeft="5dp"
+                    android:id="@+id/number_progress_bar6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    app:progress_unreached_color="@color/color_primary"
+                    app:progress_text_color="@color/color_primary"
+                    app:progress_reached_color="#212a63"
+                    />
+
+            </RelativeLayout>
+
+
+            <ImageView
+                android:id="@+id/groupImage6"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:onClick="grClick"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/usergrf"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/publish1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="05dp"
+            android:background="@drawable/fourborder"
+            android:gravity="center">
+
+            <Button
+
+                android:id="@+id/publisButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/button_padding"
+                android:gravity="center"
+                android:text="Publish Result"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

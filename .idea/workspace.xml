@@ -2,185 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39803f0b-e4c7-4fe7-8d9e-7ed7b193af06" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/libs/httpclient-4.3.3.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/assets/arial.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-hdpi/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-hdpi/search_society.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-hdpi/share.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-hdpi/splashl.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-hdpi/splashscreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-hdpi/text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-hdpi/tickcircle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-hdpi/usergr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-hdpi/usergrf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-hdpi/usertick.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/bcalendar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/camera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/camerabig.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/cameraimg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/cover_image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/cross.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/crossgroup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/downarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/editb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/editicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/ic_drawer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/loginbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/notification.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/share.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/splashscreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/tickcircle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/usergr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-mdpi/usergrf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/announcement.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/announcementgreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/archive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/bcalendar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/calwhite.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/camera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/camerabig.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/cameraimg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/cancel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/cover_image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/cross.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/crossgroup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/downarrow.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/drawer_addsociety.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/drawer_announcement.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/drawer_archive.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/drawer_complaint.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/drawer_createevent.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/drawer_event.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/drawer_logout.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/drawer_members.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/drawer_notification.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/drawer_offer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/drawer_poll.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/drawer_profile.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/drawer_property.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/dwnarr.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/editb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/editicon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/envelop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/event.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/eventgreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/fallb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/grfallb.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/header_bg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/ic_drawer.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/launcher.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/lock.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/loginbg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/my_property.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/mypropgrey.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/notification.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/notification_circle.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/photogallery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/polls.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/pollsgreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/post.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/postgreen.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/res/mipmap-xhdpi/search_society.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/.idea/gradle.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/.idea/runConfigurations.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/build.gradle" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/google-services.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/proguard-rules.pro" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/androidTest/java/com/inkswipe/SocialSociety/ApplicationTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/AndroidManifest.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/AnnouncementAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/ArchivedAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/ArchivedPollAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/CommentAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/CropOptionAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/CustomAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/EventListAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/GroupAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/MemberAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/MemberAdapter1.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/NotificationAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/OfferAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/OpinionpolllistAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/PostAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/PropertyAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/ShareeventAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/adapter/SocietyAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/AddProperty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/AddSociety.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/Announcement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/ArchivedClosedPolls.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/ArchivedPolls.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/Archivedevent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/CalendarListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/CheckConnectivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/Complaint.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/CreateAnnouncement.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/CreateEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/CreateGroup.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/CreatePoll.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/CustomCalendarView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/DashBoard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/DataWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/DayDecorator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/DayView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/EditProfile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/EditProperty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/Event.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/EventDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/EventsList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/ForgetPassword.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/GalleryUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/GroupMembers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/Groups.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/InternetService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/ItemObject.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/Login.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/MainActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/Members.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/MyApplication.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/MyEditTextView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/MyFirebaseInstanceIDService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/MyFirebaseMessagingService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/MyProperty.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/MySociety.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/MyTextView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/MyTextViewBold.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/NotificationApp.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/NumberProgressBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/Offer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/OnProgressBarListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/Opinionposts.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/PollDetails.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/Post.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/Profile.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/Register.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/RegisterPreview.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/ResetPassword.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/SearchSociety.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/ShareEvent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SocialSociety/app/src/main/java/com/inkswipe/SocialSociety/SmsListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
     </list>
     <ignored path="appfrominkswipe.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -224,7 +46,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="AndroidView" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -345,6 +167,36 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="SocialSociety">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="appfrominkswipe">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT USER_OBJECT=".idea">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
@@ -373,7 +225,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/SocialSociety" />
   </component>
@@ -459,6 +311,14 @@
       <option name="presentableId" value="Default" />
       <updated>1494506859335</updated>
     </task>
+    <task id="LOCAL-00001" summary="Mobile Code">
+      <created>1494507766927</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1494507766927</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -480,9 +340,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32960895" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960254" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960254" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -507,6 +367,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Mobile Code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mobile Code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

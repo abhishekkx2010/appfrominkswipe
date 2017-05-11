@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inkswipe.SocialSociety.Announcement"
+    android:background="#ffffff">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_above="@+id/bottom_layout"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_alignParentBottom="true">
+
+    <LinearLayout
+        android:id="@+id/create_announcement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+
+        android:background="@drawable/fourborder"
+        android:gravity="center">
+
+        <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Announcement"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold"
+            android:padding="@dimen/button_padding"/>
+
+    </LinearLayout>
+    </LinearLayout>
+<com.inkswipe.SocialSociety.MyTextView
+    android:id="@+id/announcement"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="18sp"
+    android:layout_centerInParent="true"
+    android:textColor="@android:color/black"
+    android:visibility="gone"
+    android:text="No announcement found!"/>
+</RelativeLayout>

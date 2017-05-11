@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="15dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:background="#ffffff"
+    >
+
+
+    <com.inkswipe.SocialSociety.MyTextViewBold
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OTP"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="@color/color_primary"/>
+    <com.inkswipe.SocialSociety.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter the OTP you recieved on\n your registered email id"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:layout_marginLeft="15dp"
+
+        android:layout_marginRight="15dp"
+        android:layout_gravity="center"
+        android:textColor="#222222"/>
+
+
+    <com.inkswipe.SocialSociety.MyEditTextView
+        android:id="@+id/verifymobedtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:hint="Enter Code"
+        android:inputType="number"
+        android:maxLength="6"
+        android:imeOptions="actionNext"
+        android:gravity="center"
+        android:textColorHint="@color/color_hint"
+        android:layout_marginRight="20dp"/>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="3dp"
+    android:gravity="center"
+
+    >
+    <TextView
+        android:id="@+id/didr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="#666666"
+        android:text="Didn't recieve OTP ?" />
+    <com.inkswipe.SocialSociety.MyTextViewBold
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/didr"
+        android:clickable="false"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:visibility="gone"
+        android:textColor="@color/color_primary"
+        android:text=" " />
+    <com.inkswipe.SocialSociety.MyTextViewBold
+        android:id="@+id/resend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/didr"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:visibility="gone"
+        android:textColor="@color/color_primary"
+        android:text=" Re-Send" />
+</RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="20dp"></View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+        <LinearLayout
+            android:id="@+id/verifyb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborderregister"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:layout_margin="5dp">
+
+            <com.inkswipe.SocialSociety.MyTextViewBold
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Verify"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@android:color/transparent"></View>
+</LinearLayout>

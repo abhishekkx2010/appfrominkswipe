@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inkswipe.SocialSociety.TermsCond">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_primary"
+        android:minHeight="?attr/actionBarSize">
+
+
+       <!-- <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/textView2"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:background="#6EB743"
+            android:src="@drawable/button_previous_month_selector" />-->
+
+        <com.inkswipe.SocialSociety.MyTextViewBold
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Terms and Conditions"
+            android:id="@+id/toolbar_title"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_centerVertical="true"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="20dp"
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="     Bhomeka Technology Solutions LLP (&quot; Bhomeka&quot; or &quot;we&quot; ) provide www.socialsociety.in (the &quot; Site&quot; ) and (the &quot; Application&quot; ), all of which contribute to form our online services (the &quot; Services&quot; ). Please read the following
+terms and conditions (&quot;Terms of Use&quot;) carefully. These Terms of Use govern your access to and use of the Site, the Application and the Services and, except as otherwise provided in these Terms of Use, all text,graphics, images, music, software, audio, video, information or other materials available through the Site (&quot;Content&quot; ), and constitute a binding legal agreement between you and Bhomeka Technology Solutions LLP. Certain areas of the Site (and your access to or use of certain Services, Content or the Application) may have different terms and conditions posted or may require you to agree with and accept additional terms and conditions. If there is a conflict between these Terms of Use and terms and conditions posted for a specific area of the Site, Services, Content or the Application, the latter terms and conditions shall take precedence with
+respect to your use of or access to that area of the Site, Services, Content or the Application.
+\r\n
+\n     YOU ACKNOWLEDGE AND AGREE THAT, BY CLICKING ON THE &quot; I AGREE&quot; OR &quot; I ACCEPT&quot; BUTTON,
+OR BY ACCESSING OR USING THE SITE OR THE SERVICES OR BY DOWNLOADING OR POSTING ANY
+CONTENT FROM OR ON THE SITE OR THROUGH THE SERVICES, OR BY UTILIZING THE
+APPLICATION, YOU ARE INDICATING THAT YOU HAVE READ, UNDERSTAND AND AGREE TO BE
+BOUND BY THESE TERMS OF USE, WHETHER OR NOT YOU HAVE REGISTERED WITH THE SITE. IF
+YOU DO NOT AGREE TO THESE TERMS OF USE, THEN YOU HAVE NO RIGHT TO ACCESS OR USE
+THE SITE, SERVICES, CONTENT OR THE APPLICATION.\r\n
+\n
+Modification\n
+    Bhomeka Technology Solutions LLP reserves the right, at its sole discretion, to modify, discontinue or
+terminate the Site, Services or the Application or to modify these Terms of Use, at any time and without prior
+notice. If we modify these Terms of Use, we will post the modification on the Site or provide you with notice of
+the modification. We will also update the &quot;Last Updated Date&quot; at the top the page. By continuing to access or
+use the Site, the Services or the Application after we have posted a modification on the Site or have provided
+you with notice of a modification, you are indicating that you agree to be bound by the modified Terms of Use. If
+the modified Terms of Use are not acceptable to you, your only recourse is to cease using the Site, the
+Services and the Application.\r\n
+\n
+Eligibility and Account Registration\n 
+    In order to access certain features of the Site and Services and to post any Content on the Site or through the
+Services, you must register to create an account (&quot;Account&quot;) and become a &quot;Social Society User.&quot; This applies
+both to Parents and Partners. To become a Social Society User you must be at least 18 years old. Any
+registration by anyone under 18 is void. By completing the registration process to create an Account, you
+represent and warrant that you are 18 or older.\n
+During the registration process, you will be required to provide certain information and you will establish a
+username and a password. You agree to provide accurate, current and complete information during the
+registration process and to update such information to keep it accurate, current and complete. Bhomeka
+Technology Solutions LLP reserves the right to suspend or terminate your Account if any information provided
+during the registration process or thereafter proves to be inaccurate, not current or incomplete.\r\n
+\n
+     You are responsible for safeguarding your password. You agree not to disclose your password to any third
+party and to take sole responsibility for any activities or actions under your Account, whether or not you have
+authorized such activities or actions. You will immediately notify Bhomeka Technology Solutions LLP of any unauthorized use of your Account.
+
+\r\n
+
+\nAccounts and Paid Features \n
+    Bhomeka Technology Solutions LLP offers a free Account (no fees) and the option to enhance your account
+with subscriptions and paid features (&quot;Paid Features&quot;). When you select to take advantage of Bhomeka
+Technology Solutions LLP &#39; Paid Features, you will be required to provide customary billing information such as
+name, billing address, and payment information and select the products you want to purchase.
+\r\n
+\nPayment Terms \n
+    You agree to pay the applicable fees and any taxes and other fees that may accrue in relation to your use of
+the Site and Services. All fees are non-refundable and non-transferable except as expressly provided in these
+Terms. All fees and applicable taxes, if any, are payable in Indian National Rupee
+\r\n
+\nPrivacy\n 
+    See, Bhomeka Technology Solutions LLP’s. &#39; Privacy Policy for information and notices concerning Bhomeka
+collection and use of your personal information. By accepting these Terms of Use you consent to the collection,
+use, and disclosure of information as outlined in our Privacy policy
+\r\n
+\n     The Site, Services, Content and the Application are protected by copyright, trademark, and other laws of Indian
+and foreign countries. Except as expressly provided in these Terms of Use, Bhomeka Technology Solutions
+LLP and its licensors exclusively own all right, title and interest in and to the Site, Services, Content and the
+Application, including all associated intellectual property rights. You will not remove, alter or obscure any
+copyright, trademark, service mark, advertisement or other proprietary rights notices incorporated in or
+accompanying the Site, Services, Content or the Application.
+\r\n
+\nContent License\n 
+    Subject to your compliance with the terms and conditions of these Terms of Use, Bhomeka Technology
+Solutions LLP grants you a limited, non-exclusive, non-transferable license, without the right to sublicense, to
+access, view and print any Content solely for your personal and non-commercial purposes. You will not use,
+copy, adapt, modify, prepare derivative works based upon, distribute, license, sell, transfer, publicly display,
+publicly perform, transmit, stream, broadcast or otherwise exploit the Site, Services, Content or the Application,
+except as expressly permitted in these Terms of Use. No licenses or rights are granted to you by implication or
+otherwise under any intellectual property rights owned or controlled by Bhomeka Technology Solutions LLP or
+its licensors, except for the licenses and rights expressly granted in these Terms of Use.
+\r\n
+\nApplication License\n 
+    Subject to your compliance with these Terms of Use, Bhomeka Technology Solutions LLP grants you a non-
+exclusive and non-transferable license to install and use the executable form of the Application, solely for your
+personal use. You may make a single copy of the Application for backup purposes, provided that you
+reproduce on it all copyright and other proprietary notices that are on the original copy of the Application.
+Bhomeka Technology Solutions LLP reserves all rights in the Application not expressly granted to you in this
+Agreement.
+\r\n
+\nUser Content\n 
+    In order to post Content on the site you must be a Social Society Partner. Please refer to the Partner Agreement.
+\r\n
+\nFeedback\n 
+    We welcome and encourage you to provide feedback, comments and suggestions for improvements to the Site
+and Services (&quot;Feedback&quot;). You may submit Feedback by emailing us at admin@socialsociety.in , through
+our online form, and through our blogs on the Site. You acknowledge and agree that all Feedback will be the
+sole and exclusive property Bhomeka Technology Solutions LLP and you hereby irrevocably assign to
+Bhomeka Technology Solutions LLP and agree to irrevocably assign to Bhomeka Technology Solutions LLP all
+of your right, title, and interest in and to all Feedback, including without limitation all worldwide patent rights,
+copyright rights, trade secret rights, and other proprietary or intellectual property rights therein. At Bhomeka
+Technology Solution LLP’s request and expense, you will execute documents and take such further acts as
+Bhomeka Technology Solutions LLP may reasonably request to assist Bhomeka Technology Solutions LLP to
+acquire, perfect, and maintain its intellectual property rights and other legal protections for the Feedback.
+Bhomeka Technology Solutions LLP can remove any comments from the website at its discretion.
+\r\n
+\nGeneral\n 
+    You agree not to do any of the following while using the Site, Services, Content or the Application:
+\r\n
+\n     Post, upload, publish, submit or transmit any text, graphics, images, software, music, audio, video, information
+or other material that: (i) infringes, misappropriates or violates a third party&#39;s patent, copyright, trademark, trade
+secret, moral rights or other intellectual property rights, or rights of publicity or privacy; (ii) violates, or
+encourages any conduct that would violate, any applicable law or regulation or would give rise to civil liability;
+(iii) is fraudulent, false, misleading or deceptive; (iv) is defamatory, obscene, pornographic, vulgar or offensive;
+(v) promotes discrimination, bigotry, racism, hatred, harassment or harm against any individual or group; (vi) is
+violent or threatening or promotes violence or actions that are threatening to any other person; or (vii) promotes
+illegal or harmful activities or substances (including but not limited to activities that promote or provide
+instructional information regarding the manufacture or purchase of illegal weapons or illegal substances);
+\r\n
+\n     Use, display, mirror, frame or utilize framing techniques to enclose the Site, Services or any individual element
+or materials within the Site, Bhomeka Technology Solution LLP’s name, any Bhomeka Technology Solution
+LLP’ s trademark, logo or other proprietary information, the content of any text or the layout and design of any
+page or form contained on a page or the Application, without Bhomeka Technology Solution LLP’s express
+written consent;
+\r\n
+\n     Access, tamper with, or use non-public areas of the Site, Bhomeka Technology Solutions LLP computer
+systems, or the technical delivery systems of Bhomeka Technology Solution LLP’s providers;
+\r\n
+\n     Attempt to probe, scan, or test the vulnerability of any Bhomeka Technology Solutions LLP‘s system or network
+or breach any security or authentication measures;
+\r\n
+\n     Avoid, bypass, remove, deactivate, impair, descramble or otherwise circumvent any technological measure
+implemented by Bhomeka Technology Solutions LLP or any of Bhomeka Technology Solutions LLP providers
+or any other third party (including another user) to protect the Site, Services, Content or the Application;
+\r\n
+\n     Send any unsolicited or unauthorized advertising, promotional materials, email, junk mail, spam, chain letters or
+other form of solicitation;
+\r\n
+\n     Use any meta tags or other hidden text or metadata utilizing a Bhomeka Technology Solutions LLP’s
+trademark, logo URL or product name without Bhomeka Technology Solution LLP’s express written consent;
+\r\n
+\n     Use the Site, Services, Content or the Application for any commercial purpose or the benefit of any third party
+or in any manner not permitted by these Terms of Use;
+\r\n
+\n     Forge any TCP/IP packet header or any part of the header information in any email or newsgroup posting, or in
+any way use the Site, Services, Content or the Application to send altered, deceptive or false source-identifying
+information;
+\r\n
+\n     Attempt to decipher, decompile, disassemble or reverse engineer any of the software used to provide the Site,
+Services, Content or the Application;
+\r\n
+\n     Interfere with, or attempt to interfere with, the access of any user, host or network, including, without limitation,
+sending a virus, overloading, flooding, spamming, or mail-bombing the Site;
+\r\n
+\n     Collect or store any personally identifiable information from the Site or Services from other users of the Site or
+Services without their express permission;
+\r\n
+\n     Impersonate or misrepresent your affiliation with any person or entity;
+\r\n
+\n     Violate any applicable law or regulation; or
+\r\n
+\n     Encourage or enable any other individual to do any of the foregoing.
+\r\n
+\n     Bhomeka Technology Solutions LLP will have the right to investigate and prosecute violations of any of the
+above, including intellectual property rights infringement and Site security issues, to the fullest extent of the law.
+Bhomeka Technology Solutions LLP may involve and cooperate with law enforcement authorities in\
+prosecuting users who violate these Terms of Use. You acknowledge that Bhomeka Technology Solutions LLP
+has no obligation to monitor your access to or use of the Site, Services or Content or to review or edit any User
+Content, but has the right to do so for the purpose of operating the Site and Services, to ensure your
+compliance with these Terms of Use, or to comply with applicable law or the order or requirement of a court,
+administrative agency or other governmental body. Bhomeka Technology Solutions LLP reserves the right, at
+any time and without prior notice, to remove or disable access to any Content, including any User Content, that
+Wide Angle Media Pvt. Ltd, in its sole discretion, considers to be in violation of these Terms of Use or otherwise
+harmful to the Site or Services.
+\r\n
+\nCopyright\n 
+    Bhomeka Technology Solutions LLP respects copyright law and expects its users to do the same. Bhomeka
+Technology Solutions LLP has adopted and implemented a policy that provides for the termination, in
+appropriate circumstances, of registered users or other account holders who infringe or are believed to be
+infringing the rights of copyright holders. Please see Bhomeka Technology Solution LLP’s Copyright/DMCA
+Policy, for further information.
+\r\n
+\nLinks\n 
+    The Site, Service and the Application may contain links to, or direct you to, third-party websites or resources.
+You acknowledge and agree that Bhomeka Technology Solutions LLP is not responsible or liable for: (i) the
+availability or accuracy of such websites or resources; or (ii) the content, products, or services on or available
+from such websites or resources. Links to such websites or resources do not imply any endorsement by
+Bhomeka Technology Solutions LLP of such websites or resources or the content, products, or services
+available from such websites or resources. You acknowledge sole responsibility for and assume all risk arising
+from your use of any such websites or resources.
+\r\n
+\nTermination and Account Cancellation\n 
+    If you breach any of these Terms of Use, Bhomeka Technology Solutions LLP will have the right to suspend or
+disable your Account or terminate these Terms of Use, at its sole discretion and without prior notice to you.
+Bhomeka Technology Solutions LLP reserves the right to revoke your access to and use of the Site, Services,
+Content and the Application at any time, with or without cause. In the event Bhomeka Technology Solutions
+LLP terminates these Terms of Use for your breach, you will remain liable for all amounts due hereunder. You
+may cancel your Account at any time through your Account settings.
+\r\n
+\nDisclaimers\n 
+    THE SITE, SERVICES, CONTENT AND THE APPLICATION ARE PROVIDED &quot;AS IS&quot;, WITHOUT
+WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED. WITHOUT LIMITING THE FOREGOING,
+BHOMEKA TECHNOLOGY SOLUTIONS LLP EXPLICITLY DISCLAIMS ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, QUIET ENJOYMENT OR NON-
+INFRINGEMENT, AND ANY WARRANTIES ARISING OUT OF COURSE OF DEALING OR USAGE OF
+TRADE. 
+\r\n
+\n     BHOMEKA TECHNOLOGY SOLUTIONS LLP MAKES NO WARRANTY THAT THE SITE, SERVICES,
+CONTENT OR THE APPLICATION WILL MEET YOUR REQUIREMENTS OR BE AVAILABLE ON AN
+UNINTERRUPTED, SECURE, OR ERROR-FREE BASIS. BHOMEKA TECHNOLOGY SOLUTIONS LLP
+MAKES NO WARRANTY REGARDING THE QUALITY OF ANY PRODUCTS, SERVICES OR CONTENT
+PURCHASED OR OBTAINED THROUGH THE SITE OR SERVICES OR THE ACCURACY, TIMELINESS,
+TRUTHFULNESS, COMPLETENESS OR RELIABILITY OF ANY CONTENT OBTAINED THROUGH THE
+SITE, SERVICES OR THE APPLICATION. 
+\r\n
+\n     A SMALL PERCENTAGE OF USERS MAY EXPERIENCE EPILEPTIC SEIZURES WHEN EXPOSED TO
+CERTAIN LIGHT PATTERNS OR BACKGROUNDS ON A COMPUTER SCREEN OR WHILE USING AND OR
+ACCESSING THE SITE, CONTENT, SERVICES OR THE APPLICATION. CERTAIN CONDITIONS MAY
+INDUCE PREVIOUSLY UNDETECTED EPILEPTIC SYMPTOMS EVEN IN USERS WHO HAVE NO HISTORY
+OF PRIOR SEIZURES OR EPILEPSY. IF YOU, OR ANYONE IN YOUR FAMILY, HAVE AN EPILEPTIC
+CONDITION, CONSULT YOUR PHYSICIAN PRIOR TO USING THE SITE, CONTENT, SERVICES OR THE
+APPLICATION. IMMEDIATELY DISCONTINUE USE OF THE SITE. CONTENT, SERVICES OR THE
+APPLICATION AND CONSULT YOUR PHYSICIAN IF YOU EXPERIENCE ANY OF THE FOLLOWING
+SYMPTOMS WHILE USING THE SERVICE: DIZZINESS, ALTERED VISION, EYE OR MUSCLE TWITCHES,
+LOSS OF AWARENESS, DISORIENTATION, ANY INVOLUNTARY MOVEMENT, OR CONVULSIONS. 
+NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED FROM BHOMEKA
+TECHNOLOGY SOLUTIONS LLP OR THROUGH THE SITE, SERVICES, CONTENT OR THE APPLICATION
+WILL CREATE ANY WARRANTY NOT EXPRESSLY MADE HEREIN. 
+\r\n
+\n     YOU ARE SOLELY RESPONSIBLE FOR ALL OF YOUR COMMUNICATIONS AND INTERACTIONS WITH
+OTHER USERS OF THE SITE OR SERVICES AND WITH OTHER PERSONS WITH WHOM YOU
+COMMUNICATE OR INTERACT AS A RESULT OF YOUR USE OF THE SITE OR SERVICES. YOU
+UNDERSTAND THAT BHOMEKA TECHNOLOGY SOLUTIONS LLP DOES NOT SCREEN OR INQUIRE
+INTO THE BACKGROUND OF ANY USERS OF THE SITE OR SERVICES, NOR DOES BHOMEKA
+TECHNOLOGY SOLUTIONS LLP MAKE ANY ATTEMPT TO VERIFY THE STATEMENTS OF USERS OF
+THE SITE OR SERVICES. BHOMEKA TECHNOLOGY SOLUTIONS LLP MAKES NO REPRESENTATIONS
+OR WARRANTIES AS TO THE CONDUCT OF USERS OF THE SITE OR SERVICES OR THEIR
+COMPATIBILITY WITH ANY CURRENT OR FUTURE USERS OF THE SITE OR SERVICES. YOU AGREE
+TO TAKE REASONABLE PRECAUTIONS IN ALL COMMUNICATIONS AND INTERACTIONS WITH OTHER
+USERS OF THE SITE OR SERVICES AND WITH OTHER PERSONS WITH WHOM YOU COMMUNICATE
+OR INTERACT AS A RESULT OF YOUR USE OF THE SITE OR SERVICES, PARTICULARLY IF YOU
+DECIDE TO MEET OFFLINE OR IN PERSON.
+\r\n
+\nIndemnity\n 
+    You agree to defend, indemnify, and hold , Bhomeka Technology Solutions LLP, its officers, directors,
+employees and agents, harmless from and against any claims, liabilities, damages, losses, and expenses,
+including, without limitation, reasonable legal and accounting fees, arising out of or in any way connected with
+your access to or use of the Site, Services or Content, or your violation of these Terms of Use.
+\r\n
+\nLimitation of Liability\n 
+    You acknowledge and agree that, to the maximum extent permitted by law, the entire risk arising out of your
+access to and use of the site, services, content, and the application remains with you. Neither Bhomeka
+Technology Solutions LLP nor any other party involved in creating, producing, or delivering the site, services,
+content or the application will be liable for any incidental, special, exemplary or consequential damages,
+including lost profits, loss of data or loss of goodwill, service interruption, computer damage or system failure or
+the cost of substitute products or services, or for any damages for personal or bodily injury or emotional
+distress arising out of or in connection with these terms or from the use of or inability to use the site, services,
+content or the application, or from any communications, interactions or meetings with other users of the site or
+services or other persons with whom you communicate or interact as a result of your use of the site or services,
+whether based on warranty, contract, tort (including negligence), product liability or any other legal theory, and
+whether or not Bhomeka Technology Solutions LLP has been informed of the possibility of such damage, even
+if a limited remedy set forth herein is found to have failed of its essential purpose. You specifically acknowledge
+that Bhomeka Technology Solutions LLP is not liable for the defamatory, offensive or illegal conduct of other
+users or third parties and that the risk of injury from the foregoing rests entirely with you. Further, Bhomeka
+Technology Solutions LLP will have no liability to you or to any third party for any third-party content uploaded
+onto or downloaded from the site or through the services or the application. 
+In no event will Bhomeka Technology Solutions LLP aggregate liability arising out of or in connection with these
+terms or from the use of or inability to use the site, services, content or the application exceed the amounts you
+have paid to Bhomeka Technology Solutions LLP for the use of the site, services, content and/or the
+application giving rise to a claim in the twelve months preceding the date of such claim. The limitations of
+damages set forth above are fundamental elements of the basis of the bargain between Bhomeka Technology
+Solutions LLP and you. 
+\r\n
+\n    Some jurisdictions do not allow the exclusion or limitation of liability for consequential or incidental damages, so
+the above limitation may not apply to you.
+\r\n
+\nPropriety Rights Notices\n 
+    All trademarks, service marks, logos, trade names and any other proprietary designations of Bhomeka
+Technology Solutions LLP used herein are trademarks or registered trademarks of Bhomeka Technology
+Solutions LLP . Any other trademarks, service marks, logos, trade names and any other proprietary
+designations are the trademarks or registered trademarks of their respective parties.
+\r\n
+\nControlling Law and Jurisdiction\n 
+    The applicable laws of India shall govern this agreement. The parties have required that this agreement and all
+documents and notices related thereto and/or resulting there from be drawn up in English.
+\r\n
+\nEntire Agreement\n 
+    These Terms of Use constitute the entire and exclusive understanding and agreement between Bhomeka
+Technology Solutions LLP and you regarding the Site, Services, Content and the Application and these Terms
+of Use supersede and replace any and all prior oral or written understandings or agreements between
+Bhomeka Technology Solutions LLP and you regarding the Site, Services, Content and the Application.
+\r\n
+\nAssignment\n 
+    You may not assign or transfer these Terms of Use, by operation of law or otherwise, without Bhomeka
+Technology Solutions LLP prior written consent. Any attempt by you to assign or transfer these Terms of Use,
+without such consent, will be null and of no effect. Bhomeka Technology Solutions LLP may assign or transfer
+these Terms of Use, in its sole discretion, without restriction. Subject to the foregoing, these Terms of Use will
+bind and inure to the benefit of the parties, their successors and permitted assigns.
+\r\n
+\nNotices\n 
+    You consent to the use of: (i) electronic means to complete these Terms of Use and to deliver any notices or
+other communications permitted or required hereunder; and (ii) electronic records to store information related to
+these Terms of Use or your use of the Site or Services. Any notices or other communications permitted or
+required hereunder, including those regarding modifications to these Terms of Use, will be in writing and given:
+(x) by Bhomeka Technology Solutions LLP via email (in each case to the address that you provide) or (y) by
+posting to the Site. For notices made by e-mail, the date of receipt will be deemed the date on which such
+notice is transmitted.
+\r\n
+\nGeneral\n 
+    The failure of Bhomeka Technology Solutions LLP to enforce any right or provision of these Terms of Use will
+not constitute a waiver of future enforcement of that right or provision. The waiver of any such right or provision
+will be effective only if in writing and signed by a duly authorized representative of Bhomeka Technology
+Solutions LLP . Except as expressly set forth in these Terms of Use, the exercise by either party of any of its
+remedies under these Terms of Use will be without prejudice to its other remedies under these Terms of Use or
+otherwise. If for any reason, a court of competent jurisdiction finds any provision of these Terms of Use invalid
+or unenforceable, that provision will be enforced to the maximum extent permissible and the other provisions of
+these Terms of Use will remain in full force and effect.
+\r\n
+\nContacting Bhomeka Technology Solutions LLP\n
+    If you have any questions about these Terms of Use, please contact Bhomeka Technology Solutions LLP
+at admin@socialsociety.in
+n\r\n
+"
+                android:textColor="#333333"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"/>
+
+
+           <!-- <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget."
+                android:textColor="#333333"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="90dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque"
+                android:textColor="#333333"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="230dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget."
+                android:textColor="#333333"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="320dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget."
+                android:textColor="#333333"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="460dp"/>
+-->
+
+        </RelativeLayout>
+
+    </ScrollView>
+</RelativeLayout>

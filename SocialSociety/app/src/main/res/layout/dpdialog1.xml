@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <com.inkswipe.SocialSociety.MyTextViewBold
+        android:id="@+id/profilemnm"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:textColor="@color/color_primary"
+        android:text=""
+        />
+    <ImageView
+        android:id="@+id/dpimage"
+        android:layout_width="260dp"
+        android:layout_height="255dp"
+        android:background="@mipmap/fallb"
+        android:scaleType="fitXY"
+        android:layout_gravity="center|center_vertical"/>
+    <LinearLayout
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_margin="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:visibility="gone">
+        <ImageView
+            android:id="@+id/profileim"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/tickcircle"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+            <com.inkswipe.SocialSociety.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email Id"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"/>
+            <com.inkswipe.SocialSociety.MyTextView
+
+                android:id="@+id/email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ajinkya.d@fortune4.in"
+                android:textColor="#525252"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+            <com.inkswipe.SocialSociety.MyTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone No."
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"/>
+            <com.inkswipe.SocialSociety.MyTextView
+
+                android:id="@+id/mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8888888888"
+                android:textColor="#525252"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+            <com.inkswipe.SocialSociety.MyTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"/>
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textColor="#525252"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+            <com.inkswipe.SocialSociety.MyTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"/>
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="305/B Tyagraj Soc ,\nLokpuram Pawar Nagar Thane(W)"
+                android:textColor="#525252"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+            <com.inkswipe.SocialSociety.MyTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Landmark"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"/>
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/landmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Near IT park"
+                android:textColor="#525252"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+            <com.inkswipe.SocialSociety.MyTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="State"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"/>
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/state"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maharashtra"
+                android:textColor="#525252"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+            <com.inkswipe.SocialSociety.MyTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="City"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"/>
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mumbai"
+                android:textColor="#525252"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+            <com.inkswipe.SocialSociety.MyTextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pincode"
+                android:textSize="16dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"/>
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/pincode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="400402"
+                android:textColor="#525252"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/terms">
+                <CheckBox
+                    android:text="Accept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ch1"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Terms and Conditions"
+                    android:textColor="#6EB743"
+                    android:id="@+id/ch2"
+                    android:layout_marginStart="02dp"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/ch1"
+                    android:layout_toEndOf="@+id/ch1"
+                    android:clickable="true"
+                    android:layout_marginLeft="02dp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/prpublish"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fourborder"
+                android:gravity="center"
+                android:layout_marginTop="05dp"
+                android:layout_marginBottom="25dp">
+
+                <com.inkswipe.SocialSociety.MyTextView
+
+                    android:id="@+id/loginButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Register"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:padding="@dimen/button_padding"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

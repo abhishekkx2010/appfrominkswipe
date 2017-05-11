@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.inkswipe.SocialSociety.Complaint"
+    tools:showIn="@layout/activity_complaint"
+    android:orientation="vertical"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarThumbVertical="@drawable/scroll_bar_color">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+    <com.inkswipe.SocialSociety.MyEditTextView
+        android:id="@+id/complaintSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/color_hint"
+        android:textSize="20dp"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="5dp"
+        android:maxLength="100"
+        android:background="@android:color/transparent"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/black"/>
+
+
+        <com.inkswipe.SocialSociety.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/complaintDescriptionlin"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/fourwall"
+        android:padding="10dp">
+        <com.inkswipe.SocialSociety.MyEditTextView
+            android:id="@+id/complaintDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:textSize="14sp"
+            android:imeOptions="actionNext"
+            android:textColor="#525252"
+            android:maxLength="500"
+            android:textColorHint="@color/color_hint"
+            android:background="@android:color/transparent"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/complaint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fourborder"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/login_button_top">
+
+        <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/loginButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold"
+            android:padding="@dimen/button_padding"/>
+
+    </LinearLayout>
+            </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

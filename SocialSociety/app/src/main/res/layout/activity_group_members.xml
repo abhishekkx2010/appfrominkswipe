@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.inkswipe.SocialSociety.GroupMembers">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/color_primary"
+                android:minHeight="?attr/actionBarSize"
+                android:gravity="center">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+                    <com.inkswipe.SocialSociety.MyTextViewBold
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:id="@+id/toolbar_title"
+                        android:text="Members"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_weight="10"/>
+                    <EditText
+                        android:id="@+id/search"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@android:color/white"
+                        android:textSize="18sp"
+                        android:singleLine="true"
+                        android:layout_weight="8"
+                        android:hint="Search"
+                        android:textColorHint="@color/color_hint"
+                        android:visibility="gone"
+                        android:theme="@style/AppThemeEditText"/>
+                    <LinearLayout
+                        android:id="@+id/searchSociety"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:visibility="gone">
+                        <ImageView
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/search"
+                            android:layout_gravity="center" />
+                    </LinearLayout>
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/home"
+                        android:layout_centerVertical="true">
+
+                        <RelativeLayout
+                            android:id="@+id/notification"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:padding="10dp">
+
+                            <ImageView
+                                android:id="@+id/noitificationImage"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/notification"
+                                />
+
+                        </RelativeLayout>
+                        <RelativeLayout
+                            android:id="@+id/notificationcount"
+                            android:layout_width="@dimen/notification_icon"
+                            android:layout_height="@dimen/notification_icon"
+                            android:background="@mipmap/notification_circle"
+                            android:visibility="gone"
+                            android:layout_alignRight="@id/notification"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginTop="2dp">
+                            <com.inkswipe.SocialSociety.MyTextViewBold
+                                android:id="@+id/notificationtext"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textSize="9dp"
+                                android:padding="2dp"
+                                android:text="10"
+                                android:layout_centerInParent="true"
+                                android:textColor="@android:color/white"/>
+                        </RelativeLayout>
+                    </RelativeLayout>
+                    <LinearLayout
+                        android:id="@+id/home"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:paddingRight="15dp"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ic_drawer"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </android.support.v7.widget.Toolbar>
+            <include layout="@layout/content_group_members" />
+        </LinearLayout>
+
+
+
+        <ListView android:id="@+id/left_drawer"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="0dp"
+            android:background="@mipmap/bg"/>
+    </android.support.v4.widget.DrawerLayout>
+
+
+
+</RelativeLayout>

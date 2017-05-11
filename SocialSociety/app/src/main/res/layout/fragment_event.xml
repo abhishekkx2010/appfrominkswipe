@@ -1,0 +1,118 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.inkswipe.SocialSociety.Event"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/view"
+        android:scrollbarThumbVertical="@drawable/scroll_bar_color">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <com.inkswipe.SocialSociety.CustomCalendarView
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/off_white"
+        android:layout_marginBottom="1dp"
+        app:calendarBackgroundColor="@color/color_primary"
+        app:calendarTitleTextColor="@color/white"
+        app:currentDayOfMonthColor="@android:color/black"
+        app:dayOfMonthTextColor="@color/white"
+        android:layout_gravity="top"
+        app:dayOfWeekTextColor="@color/white"
+        app:disabledDayBackgroundColor="@color/color_primary"
+        app:disabledDayTextColor="@color/grey"
+        app:selectedDayTextColor="@color/red"
+        app:selectedDayBackgroundColor="@android:color/white"
+        app:titleLayoutBackgroundColor="@color/color_primary"
+        app:weekLayoutBackgroundColor="@color/color_primary"/>
+
+    </LinearLayout>
+    </ScrollView>
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white"
+        android:layout_above="@+id/bottom"/>
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            >
+            <LinearLayout
+
+                android:id="@+id/createevent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fourborderwithoutcorner"
+                android:gravity="center"
+                >
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/loginButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Create Event"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:padding="@dimen/eventbutton_padding"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            >
+            <LinearLayout
+
+                android:id="@+id/archived"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fourborderregisterwithoutcorner"
+                android:gravity="center"
+                >
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/archivedtxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Archived Event"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:padding="@dimen/eventbutton_padding"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

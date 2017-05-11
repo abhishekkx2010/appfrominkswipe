@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.inkswipe.SocialSociety.PollDetails"
+    tools:showIn="@layout/activity_poll_details"
+    android:background="@android:color/white">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/fallb"
+
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical">
+
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/creatorName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:gravity="top"
+                android:textColor="@android:color/black"
+                android:textSize="17sp"/>
+
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/createdDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="29th Sept 2016"
+                android:layout_marginTop="1.5dp"
+                android:textColor="#525252"
+                android:textSize="14sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <com.inkswipe.SocialSociety.MyTextViewBold
+        android:id="@+id/pollTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Poll Title"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="19sp"
+        android:layout_marginTop="8dp"/>
+
+    <com.inkswipe.SocialSociety.MyTextView
+        android:id="@+id/pollQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Should we change the name and colour of our society? Please give answer!"
+        android:textColor="@android:color/black"
+        android:textSize="17sp"
+        android:layout_marginTop="4dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="4dp">
+        <com.inkswipe.SocialSociety.MyTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End Date: "
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            android:textColor="@color/color_primary"/>
+        <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/enddate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01 Oct 2016"
+            android:layout_gravity="center_vertical"
+            android:textSize="15sp"
+            android:textColor="@color/color_primary"/>
+
+        <RelativeLayout
+            android:id="@+id/editDateLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible">
+            <ImageView
+                android:layout_toLeftOf="@+id/editDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/bcalendar"
+                android:layout_marginRight="10dp"/>
+            <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/editDate"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#525252"
+            android:textSize="@dimen/text_size"
+            android:layout_centerVertical="true"
+            android:gravity="right"
+            android:text="Edit End Date"/>
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+<!--
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:text="Option 1"/>
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_primary"
+                    android:text="400 votes"/>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:text="Option 2"/>
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_primary"
+                    android:text="200 votes"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:text="Option 3"/>
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_primary"
+                    android:text="600 votes"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:text="Option 4"/>
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_primary"
+                    android:text="100 votes"/>
+            </RelativeLayout>
+        </RadioGroup>
+-->
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/linradio"
+                android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="5dp"
+                android:maxLength="30"
+                android:text="Option 1"/>
+
+            <RadioButton
+                android:id="@+id/option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:layout_marginTop="5dp"
+                android:maxLength="20"
+                android:text="Option 2"/>
+
+                <RadioButton
+                    android:id="@+id/option3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:layout_marginTop="5dp"
+                    android:maxLength="20"
+                    android:text="Option 3"/>
+
+                <RadioButton
+                    android:id="@+id/option4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:layout_marginTop="5dp"
+                    android:maxLength="20"
+                    android:text="Option 4"/>
+
+                <RadioButton
+                    android:id="@+id/option5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:maxLength="20"
+                    android:layout_marginTop="5dp"
+                    android:text="Option 5"/>
+
+                <RadioButton
+                    android:id="@+id/option6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_size"
+                    android:maxLength="20"
+                    android:layout_marginTop="5dp"
+                    android:text="Option 6"/>
+</RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/linradio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_alignParentRight="true"
+                android:orientation="vertical">
+
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/vote1"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_primary"
+                    android:text="100 votes"/>
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/vote2"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_primary"
+                    android:text="400 votes"/>
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/vote3"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_primary"
+                    android:text="100 votes"/>
+
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/vote4"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_primary"
+                    android:text="100 votes"/>
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/vote5"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_primary"
+                    android:text="100 votes"/>
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/vote6"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="right"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/color_primary"
+                    android:text="100 votes"/>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/submit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborder"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="@dimen/login_button_top">
+
+            <com.inkswipe.SocialSociety.MyTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingTop="1dp"
+        android:weightSum="2"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            >
+            <LinearLayout
+
+                android:id="@+id/closeArchive"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fourborderwithoutcorner"
+                android:gravity="center"
+                >
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/loginButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Close and Archive"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:padding="@dimen/eventbutton_padding"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            >
+            <LinearLayout
+
+                android:id="@+id/closeDelete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fourborderregisterwithoutcorner"
+                android:gravity="center"
+                >
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/archivedtxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Close and Delete"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:padding="@dimen/eventbutton_padding"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingTop="1dp"
+        android:weightSum="2"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            >
+            <LinearLayout
+
+                android:id="@+id/publishPoll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fourborderwithoutcorner"
+                android:gravity="center"
+                >
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Publish Poll"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:padding="@dimen/eventbutton_padding"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            >
+            <LinearLayout
+
+                android:id="@+id/SharePoll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fourborderregisterwithoutcorner"
+                android:gravity="center"
+                >
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Share Poll"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:padding="@dimen/eventbutton_padding"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

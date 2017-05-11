@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white">
+
+    <RelativeLayout
+        android:id="@+id/imagelay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    <RelativeLayout
+        android:id="@+id/rphotoo"
+        android:layout_width="@dimen/user_layout"
+        android:layout_height="@dimen/user_layout"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+        <RelativeLayout
+            android:id="@+id/profilepicview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/image_background"
+            android:padding="2dp">
+        <ImageView
+            android:id="@+id/primage"
+            android:layout_centerInParent="true"
+            android:layout_width="@dimen/imagewidht"
+            android:layout_height="@dimen/imagewidht"
+            android:src="@mipmap/fallb"
+            />
+            </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/cameraimg"
+            android:layout_marginBottom="3dp"
+            android:layout_marginRight="3dp"
+            android:padding="15dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+               />
+        </RelativeLayout>
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/marked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Fields with * are required"
+            android:textColor="#525252"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="30dp"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="15dp"
+    android:background="#ffffff"
+    >
+
+
+
+    <com.inkswipe.SocialSociety.MyTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+
+        android:gravity="center"
+        android:textSize="17sp"
+        android:textColor="@android:color/black"
+        android:text="Your society is not registered!" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginTop="20dp"></View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+     <!--   <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="18dp"
+            android:paddingRight="18dp"
+            android:textStyle="bold"
+            android:text="Add your society"
+            android:background="@color/color_primary"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="20dp"
+            android:textSize="17sp"
+            android:layout_gravity="center"/>-->
+
+
+        <LinearLayout
+            android:id="@+id/verifyb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborderregister"
+            android:gravity="center"
+            android:layout_marginTop="14dp"
+            android:layout_gravity="right"
+            >
+
+            <com.inkswipe.SocialSociety.MyTextViewBold
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add your society"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+
+                android:paddingBottom="5dp"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

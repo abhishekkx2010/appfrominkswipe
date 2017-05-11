@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="15dp"
+    android:orientation="vertical"
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <ImageView
+            android:id="@+id/mimage"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@mipmap/fallb"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/mname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rakesh Mourya"
+                    android:textColor="#222222"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="18sp"
+                    />
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/createdon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="29 sept,2016"
+                android:textColor="#525252"/>
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="left"
+                    android:visibility="gone">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:text="Created By :"
+                    android:textSize="11sp"
+                    android:textColor="@color/color_primary"
+                    />
+                    <TextView
+                        android:id="@+id/createdby"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="3dp"
+                        android:text="Ramesh Kumar"
+                        android:textSize="11sp"
+                        android:textColor="@color/color_primary"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/daystogo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textSize="11sp"
+                    android:textColor="@color/color_primary"
+                    android:text="2 Days ago"
+                    android:visibility="gone"/>
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>]
+
+    <com.inkswipe.SocialSociety.MyTextViewBold
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Poll Title"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="10dp"
+        android:textSize="19sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+        <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Should we change the name and colour of our society? Please give answer!"
+            android:textColor="#333333"
+            android:layout_gravity="center_vertical"
+            android:textSize="18dp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            android:layout_marginTop="5dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="End Date :"
+                android:textSize="11sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/color_primary"
+                />
+            <TextView
+                android:id="@+id/endate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="3dp"
+                android:text="01 Oct, 2016"
+                android:textSize="11sp"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/color_primary"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right">
+
+
+                <LinearLayout
+                    android:id="@+id/viewr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/fourborderregister"
+                    android:orientation="horizontal">
+
+                    <com.inkswipe.SocialSociety.MyTextView
+                        android:id="@+id/loginButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="View"
+                        android:textSize="@dimen/text_size"
+                        android:textStyle="bold"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/newarchived"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toLeftOf="@+id/viewr"
+                    android:clickable="true"
+                    android:background="#212a63"
+                    android:padding="5dp"
+                    android:layout_marginRight="50dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Archive"
+                        android:textColor="@android:color/white"
+                        android:layout_marginRight="3dp"
+                        android:textSize="11sp"
+                        />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/dwnarr"
+                        android:layout_gravity="center_vertical"
+                        />
+
+                </LinearLayout>
+
+
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="bottom"
+        android:background="@android:color/darker_gray"/>
+
+
+
+
+
+
+
+</LinearLayout>

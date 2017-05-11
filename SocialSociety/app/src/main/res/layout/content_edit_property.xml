@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.inkswipe.SocialSociety.EditProperty"
+    tools:showIn="@layout/activity_edit_property"
+    android:background="#ffffff">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarThumbVertical="@drawable/scroll_bar_color"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/propertyHead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wing/Building/House Name"
+        android:textSize="16dp"
+        android:layout_marginTop="10dp"
+        android:maxLength="50"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="18dp"/>
+
+    <EditText
+        android:id="@+id/property"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wing/Building/House Name"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/color_hint"
+        android:textSize="@dimen/text_size"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:maxLength="100"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:theme="@style/Edit"
+        />
+
+        <TextView
+            android:id="@+id/proptypetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Property Type"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="18dp"/>
+
+        <TextView
+            android:id="@+id/prtype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Property Type"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:textSize="@dimen/text_size"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="19dp"
+            android:drawableRight="@mipmap/dwnarr"
+            android:theme="@style/Edit"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="right">
+
+            <TextView
+                android:id="@+id/ntinlist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="(If not in above list)"
+                android:textColor="@android:color/black"
+                android:textColorHint="@color/color_hint"
+                android:layout_marginTop="@dimen/login_edittext_top"
+                android:layout_marginRight="5dp"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:id="@+id/addproptype"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Add Property Type"
+                android:textColor="@color/color_primary"
+                android:layout_marginTop="@dimen/login_edittext_top"
+                android:layout_marginRight="15dp"
+                android:layout_gravity="right"/>
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/selfHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Define Yourself"
+            android:textSize="16dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="18dp"/>
+
+        <TextView
+            android:id="@+id/definey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:text="Define yourself"
+            android:drawableRight="@mipmap/dwnarr"
+            android:textSize="@dimen/text_size"
+            android:textColor="#525252"
+            android:layout_marginRight="19dp"
+            android:theme="@style/Edit"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/viewht"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/darker_gray"
+            />
+        <TextView
+            android:id="@+id/houseHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add House/Flat No."
+            android:textSize="16dp"
+            android:layout_marginTop="25dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="18dp"/>
+
+        <EditText
+            android:id="@+id/addhsno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Add House/Flat No."
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:textSize="@dimen/text_size"
+            android:singleLine="true"
+            android:maxLength="50"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:theme="@style/Edit"
+            />
+
+        <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/availtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:text="Available for rent "
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            />
+
+        <LinearLayout
+            android:id="@+id/availradio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/yes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:checked="true"
+                    android:textColor="@android:color/black"
+                    android:shadowColor="#525252"
+                    android:text="Yes"/>
+
+                <RadioButton
+                    android:id="@+id/no"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/black"
+                    android:shadowColor="#525252"
+                    android:text="No"/>
+
+            </RadioGroup>
+            <LinearLayout
+                android:id="@+id/chooseDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+                <TextView
+                    android:id="@+id/datePickerRent"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/spinnerht"
+                    android:layout_marginTop="@dimen/login_edittext_top"
+                    android:gravity="center_vertical"
+                    android:hint="Available for rent"
+                    android:drawableRight="@mipmap/bcalendar"
+                    android:textSize="@dimen/text_size"
+                    android:textColorHint="@color/color_hint"
+                    android:textColor="@android:color/black"
+                    android:visibility="visible"/>
+
+
+                <View
+                    android:id="@+id/dateView"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/viewht"
+                    android:background="@android:color/black"
+                    android:visibility="visible"/>
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+        <LinearLayout
+            android:id="@+id/uploadphoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborder"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="@dimen/login_button_top">
+
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/upphoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Photo"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/addprop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborderregister"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp">
+
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/addproptx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+        </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+</ScrollView>
+
+
+</RelativeLayout>

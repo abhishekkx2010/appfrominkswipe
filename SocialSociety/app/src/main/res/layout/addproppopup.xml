@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+
+        <com.inkswipe.SocialSociety.MyTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size"
+            android:text="Add Property Type"
+            android:gravity="center"
+            android:textColor="@color/color_primary"/>
+
+        <com.inkswipe.SocialSociety.MyEditTextView
+            android:id="@+id/dialogtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:hint="Add Property Type"
+            android:gravity="center"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="20dp"></View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+        <!--    <Button
+                android:id="@+id/Ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="23dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="5dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:textStyle="bold"
+                android:text="Submit"
+                android:background="@color/color_primary"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:textSize="22sp"
+
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center"/>-->
+            <LinearLayout
+                android:id="@+id/verifyb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fourborderregister"
+                android:gravity="center"
+                android:layout_marginTop="18dp"
+                android:layout_gravity="right"
+                >
+
+                <com.inkswipe.SocialSociety.MyTextViewBold
+                    android:id="@+id/loginButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Submit"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:paddingTop="5dp"
+
+
+                    android:paddingBottom="5dp"
+                    android:paddingRight="20dp"
+                    android:paddingLeft="20dp"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+
+            android:layout_marginTop="20dp"
+            android:background="@android:color/transparent"></View>
+
+        </LinearLayout>
+</LinearLayout>

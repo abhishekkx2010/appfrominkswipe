@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.inkswipe.SocialSociety.EventsList"
+    tools:showIn="@layout/activity_events_list"
+    android:background="#ffffff">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_above="@+id/bottom"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/noevent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:text="No events found!"/>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="#ffffff"
+        >
+        <LinearLayout
+
+            android:id="@+id/createevent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborderwithoutcorner"
+            android:gravity="center"
+            >
+
+            <com.inkswipe.SocialSociety.MyTextViewBold
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create Event"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/eventbutton_padding"/>
+
+        </LinearLayout>
+
+
+</LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            >
+            <LinearLayout
+
+                android:id="@+id/archived"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fourborderregisterwithoutcorner"
+                android:gravity="center"
+                >
+
+                <com.inkswipe.SocialSociety.MyTextViewBold
+                    android:id="@+id/archivedtxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Archived Event"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:padding="@dimen/eventbutton_padding"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+</LinearLayout>
+
+
+</RelativeLayout>

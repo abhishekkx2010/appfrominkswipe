@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.inkswipe.SocialSociety.EventDetails"
+    tools:showIn="@layout/activity_event_details"
+    android:background="#ffffff">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@+id/rel"
+    android:scrollbarThumbVertical="@drawable/scroll_bar_color">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="18dp"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.inkswipe.SocialSociety.MyTextViewBold
+            android:id="@+id/eventname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/color_primary"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:id="@+id/eventImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/backimght"
+            android:src="@mipmap/cover_image"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:scaleType="fitXY"
+            android:visibility="visible"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/login_edittext_top">
+            <com.inkswipe.SocialSociety.MyTextViewBold
+                android:id="@+id/creatorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Created by, "
+                android:textSize="@dimen/text_size"
+                android:textColor="@android:color/black"/>
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/createdby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginLeft="2dp"
+                android:textSize="@dimen/text_size"
+
+                android:textColor="#525252"/>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+            <com.inkswipe.SocialSociety.MyTextViewBold
+                android:id="@+id/datetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date: "
+                android:textSize="@dimen/text_size"
+                android:textColor="@android:color/black"
+                android:layout_centerVertical="true"/>
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginLeft="2dp"
+                android:layout_toRightOf="@+id/datetxt"
+                android:textSize="@dimen/text_size"
+                android:layout_centerVertical="true"
+                android:textColor="#525252"/>
+            <LinearLayout
+                android:id="@+id/archiveEvent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_alignParentRight="true">
+            <ImageView
+                android:id="@+id/archiveImage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/archive"
+                android:layout_toLeftOf="@+id/textArchive"/>
+
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/textArchive"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="10dp"
+                android:text="Archive"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="4dp">
+            <com.inkswipe.SocialSociety.MyTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time: "
+                android:textSize="@dimen/text_size"
+                android:textColor="@android:color/black"/>
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:layout_marginLeft="2dp"
+                android:textSize="@dimen/text_size"
+
+                android:textColor="#525252"/>
+        </LinearLayout>
+
+        <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:text=""
+            android:textColor="#707070"
+            android:visibility="visible"/>
+        <com.inkswipe.SocialSociety.MyTextViewBold
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textColor="@android:color/black"
+            android:textSize="17sp"/>
+
+        <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/addresstxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="4dp"
+            android:textColor="#707070"
+            android:textSize="@dimen/text_size"
+            android:layout_marginBottom="20dp"/>
+
+
+        <LinearLayout
+            android:id="@+id/publishevent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborder"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="@dimen/login_button_top"
+            android:visibility="gone">
+
+            <com.inkswipe.SocialSociety.MyTextViewBold
+                android:id="@+id/addevtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Publish Event"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/shareevent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborderregister"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+
+            <com.inkswipe.SocialSociety.MyTextViewBold
+                android:id="@+id/pretxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Share Event"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/acceptReject"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+            <LinearLayout
+                android:id="@+id/accept"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/fourborderregister"
+                android:gravity="center"
+                android:layout_marginRight="3dp"
+                android:layout_marginLeft="10dp">
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Accept"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:padding="@dimen/button_padding"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/reject"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/fourboardergray"
+                android:gravity="center"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="3dp">
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Reject"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:padding="@dimen/button_padding"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/deleteEvent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborder"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/login_button_top"
+            android:layout_marginTop="@dimen/login_button_top"
+            android:visibility="gone">
+
+            <com.inkswipe.SocialSociety.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete Event"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    </LinearLayout>
+</ScrollView>
+    <LinearLayout
+        android:id="@+id/rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingTop="1dp"
+        android:weightSum="2"
+        android:background="@android:color/white">
+
+      <LinearLayout
+          android:id="@+id/bottomLayout1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_weight="2"
+          android:layout_alignParentBottom="true"
+          android:orientation="horizontal"
+          android:visibility="gone">
+          <LinearLayout
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:background="@drawable/fourborderwithoutcorner"
+              android:gravity="center">
+              <com.inkswipe.SocialSociety.MyTextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Create Event"
+                  android:textSize="@dimen/text_size"
+                  android:textStyle="bold"
+                  android:padding="@dimen/button_padding"/>
+
+          </LinearLayout>
+          <LinearLayout
+              android:layout_width="0dp"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:background="@drawable/fourborderregisterwithoutcorner"
+              android:gravity="center">
+              <com.inkswipe.SocialSociety.MyTextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Archived Event"
+                  android:textSize="@dimen/text_size"
+                  android:textStyle="bold"
+                  android:padding="@dimen/button_padding"/>
+          </LinearLayout>
+      </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottomLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:visibility="gone">
+        <LinearLayout
+            android:id="@+id/peopleAccepted"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/fourborderwithoutcorner"
+            android:gravity="center">
+            <com.inkswipe.SocialSociety.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="People Accepted"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/peopleRejected"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/fourborderregisterwithoutcorner"
+            android:gravity="center">
+            <com.inkswipe.SocialSociety.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="People Rejected"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/button_padding"/>
+        </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
+</RelativeLayout>

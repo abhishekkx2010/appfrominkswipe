@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.inkswipe.SocialSociety.CreatePoll"
+    tools:showIn="@layout/activity_create_poll"
+    android:background="#ffffff">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/whiteview"
+        android:scrollbarThumbVertical="@drawable/scroll_bar_color">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <com.inkswipe.SocialSociety.MyEditTextView
+        android:id="@+id/polltitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Poll Title"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/color_hint"
+        android:layout_marginTop="@dimen/login_edittext_top"
+        android:textSize="@dimen/text_size"
+        android:maxLength="50"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        />
+
+        <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/enddate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinnerht"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:layout_marginLeft="19dp"
+            android:gravity="center_vertical"
+            android:hint="End Date"
+            android:textColorHint="@color/color_hint"
+            android:drawableRight="@mipmap/bcalendar"
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="19dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/viewht"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:background="@android:color/darker_gray"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="5dp">
+            <com.inkswipe.SocialSociety.MyTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enter Question"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_size"
+                />
+
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/uploadPhoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Upload Photo"
+                android:textColor="@color/color_primary"
+                android:textSize="@dimen/text_size"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/borderpolldetails"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/fourwall">
+            <com.inkswipe.SocialSociety.MyEditTextView
+                android:id="@+id/question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Text"
+                android:textSize="14sp"
+                android:maxLines="5"
+                android:maxLength="500"
+                android:imeOptions="actionNext"
+                android:background="@android:color/transparent"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+        <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/answers"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinnerht"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:layout_marginLeft="19dp"
+            android:gravity="center_vertical"
+            android:text="Answers :"
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="19dp"/>
+
+
+        <com.inkswipe.SocialSociety.MyEditTextView
+            android:id="@+id/option1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option 1"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:maxLength="50"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <com.inkswipe.SocialSociety.MyEditTextView
+            android:id="@+id/option2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option 2"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:maxLength="50"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+        <com.inkswipe.SocialSociety.MyEditTextView
+            android:id="@+id/option3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option 3"
+            android:maxLength="50"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+        <com.inkswipe.SocialSociety.MyEditTextView
+            android:id="@+id/option4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option 4"
+            android:maxLength="50"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+        <com.inkswipe.SocialSociety.MyEditTextView
+            android:id="@+id/option5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option 5"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:maxLength="50"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:visibility="gone"
+            />
+        <com.inkswipe.SocialSociety.MyEditTextView
+            android:id="@+id/option6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Option 6"
+            android:maxLength="50"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:visibility="gone"
+            />
+
+        <LinearLayout
+            android:id="@+id/addpoll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborder"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="25dp">
+
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/pretxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Poll"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+    <View
+        android:id="@+id/whiteview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewht"
+        android:layout_above="@+id/bottom"
+        android:background="@android:color/white"
+        />
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:id="@+id/cancelb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            >
+            <LinearLayout
+
+                android:id="@+id/createevent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fourborderwithoutcorner"
+                android:gravity="center"
+                >
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/loginButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cancel"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:padding="@dimen/eventbutton_padding"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            >
+            <LinearLayout
+
+                android:id="@+id/nextb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/fourborderregisterwithoutcorner"
+                android:gravity="center"
+                >
+
+                <com.inkswipe.SocialSociety.MyTextView
+                    android:id="@+id/next"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Create and Share"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    android:padding="@dimen/eventbutton_padding"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

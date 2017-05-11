@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.inkswipe.SocialSociety.CreateEvent"
+    tools:showIn="@layout/activity_create_event"
+    android:background="#ffffff">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbarThumbVertical="@drawable/scroll_bar_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.inkswipe.SocialSociety.MyEditTextView
+            android:id="@+id/eventtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Event Title"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:id="@+id/eventdate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinnerht"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:layout_marginLeft="19dp"
+            android:drawableRight="@mipmap/bcalendar"
+            android:gravity="center_vertical"
+            android:hint="Event Date"
+
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="19dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+
+            android:background="@android:color/darker_gray"
+            />
+        <TextView
+            android:id="@+id/eventtime"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinnerht"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:layout_marginLeft="19dp"
+            android:drawableRight="@mipmap/dwnarr"
+            android:gravity="center_vertical"
+            android:hint="Event Time"
+
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="19dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+
+            android:background="@android:color/darker_gray"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:layout_marginBottom="5dp">
+        <TextView
+            android:id="@+id/enterDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Description"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/text_size"
+           />
+
+        <TextView
+            android:id="@+id/uploadPhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Upload Photo"
+            android:textColor="@color/color_primary"
+            android:textSize="@dimen/text_size"/>
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/bordercreateevent"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/fourwall"
+            android:visibility="visible">
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Text"
+                android:textSize="14sp"
+                android:imeOptions="actionNext"
+                android:maxLines="4"
+                android:maxLength="500"
+                android:background="@android:color/transparent"
+                android:padding="5dp"/>
+
+        </LinearLayout>
+
+
+      <!--  <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/viewht"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+
+            android:background="@android:color/black"
+            />
+-->
+
+
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:maxLength="100"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+
+        <EditText
+            android:id="@+id/landmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Landmark"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinnerht"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:layout_marginLeft="19dp"
+            android:gravity="center_vertical"
+            android:hint="State"
+            android:onClick="onClickList"
+            android:drawableRight="@mipmap/dwnarr"
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="19dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/viewht"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+            android:background="@android:color/darker_gray"
+            />
+
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinnerht"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:layout_marginLeft="19dp"
+            android:drawableRight="@mipmap/dwnarr"
+            android:gravity="center_vertical"
+            android:hint="City"
+
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="19dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+
+            android:background="@android:color/darker_gray"
+            />
+
+        <EditText
+            android:id="@+id/pincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pincode"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:singleLine="true"
+            android:inputType="number"
+            android:maxLength="6"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/addevent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborder"
+            android:gravity="center"
+            android:paddingTop="1dp"
+            android:visibility="gone"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="@dimen/login_button_top">
+
+            <com.inkswipe.SocialSociety.MyTextViewBold
+                android:id="@+id/addevtxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Event"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/preview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborderregister"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="@dimen/login_edittext_top">
+
+            <com.inkswipe.SocialSociety.MyTextViewBold
+                android:id="@+id/pretxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preview and Share"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

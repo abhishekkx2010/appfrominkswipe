@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.inkswipe.SocialSociety.AddSociety"
+    tools:showIn="@layout/activity_add_society"
+    android:background="#ffffff">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbarThumbVertical="@drawable/scroll_bar_color">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/socname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Society Name"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:maxLength="100"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:maxLength="100"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+
+        <EditText
+            android:id="@+id/landmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Landmark"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <EditText
+            android:id="@+id/area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:hint="Area"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            />
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinnerht"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:layout_marginLeft="20dp"
+            android:gravity="center_vertical"
+            android:hint="State"
+            android:onClick="onClickList"
+            android:drawableRight="@mipmap/dwnarr"
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="19dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/viewht"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="18dp"
+            android:background="@android:color/darker_gray"
+            />
+
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinnerht"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:layout_marginLeft="20dp"
+            android:drawableRight="@mipmap/dwnarr"
+            android:gravity="center_vertical"
+            android:hint="City"
+
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/black"
+            android:layout_marginRight="19dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="18dp"
+
+            android:background="@android:color/darker_gray"
+            />
+
+        <EditText
+            android:id="@+id/pincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pincode"
+            android:inputType="number"
+            android:maxLength="6"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <com.inkswipe.SocialSociety.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:textSize="@dimen/text_size"
+            android:text="Hold any post in society "
+            android:textColor="@android:color/black"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="@dimen/login_edittext_top">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_size"
+                android:textColor="@android:color/black"
+                android:text="Yes"/>
+
+            <RadioButton
+                android:id="@+id/no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:textSize="@dimen/text_size"
+                android:checked="true"
+                android:textColor="@android:color/black"
+                android:text="No"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <com.inkswipe.SocialSociety.MyEditTextView
+            android:id="@+id/yourpost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Post"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginTop="@dimen/login_edittext_top"
+            android:textSize="@dimen/text_size"
+            android:visibility="gone"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+        <LinearLayout
+            android:id="@+id/uploadphoto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborder"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="@dimen/login_button_top">
+
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/upphoto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Upload Photo"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/addsoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborderregister"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp">
+
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/addsoctx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Request to Add Society"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+</LinearLayout>
+    </ScrollView>
+</RelativeLayout>

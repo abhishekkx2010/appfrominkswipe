@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.inkswipe.SocialSociety.MySociety"
+    tools:showIn="@layout/activity_my_society"
+    android:background="#ffffff">
+
+
+
+            <android.support.v7.widget.RecyclerView
+
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/linear"
+                >
+            </android.support.v7.widget.RecyclerView>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:background="#ffffff"
+        >
+        <LinearLayout
+
+            android:id="@+id/prpublish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborder"
+            android:gravity="center"
+            android:layout_marginTop="10dp">
+
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add Society"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/notinlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(If not in above list)"
+            android:layout_gravity="right"
+            android:textSize="14sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/darker_gray"
+            />
+    </LinearLayout>
+</RelativeLayout>

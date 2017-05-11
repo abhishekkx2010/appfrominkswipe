@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#6eb743</color>
+
+    <color name="color_primary">#6eb743</color>
+    <color name="my_statusbar_color">#388E3C</color>212a63
+    <color name="my_statusbar_color1">#212a63</color>
+    <color name="color_white">#ffffff</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="red">#f00</color>
+    <color name="blue">#009de0</color>
+    <color name="black">#000000</color>
+    <color name="off_white">#f1f5f7</color>
+    <color name="blue_selector">#00aeea</color>
+    <color name="red_negative_progress">#ff3333</color>
+
+    <color name="bg_color">#e3ebee</color>
+    <color name="color_grey">#2a2d30</color>
+    <color name="colorprimary">@color/blue</color>
+    <color name="colorprimaryDark">@color/blue</color>
+
+    <color name="background">#E0E0E0</color>
+    <color name="grey">#757575</color>
+
+    <color name="day_disabled_background_color">#F1F5F8</color>
+    <color name="day_disabled_text_color">#DEDEDE</color>
+    <color name="selected_day_background">#03A7E9</color>
+    <color name="current_day_of_month">#03A7E9</color>
+
+    <color name="color_hint">#707070</color>
+
+</resources>

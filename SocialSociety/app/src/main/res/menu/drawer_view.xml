@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@mipmap/dwnarr"
+            android:title="menu1" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@mipmap/dwnarr"
+            android:title="menu2" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@mipmap/dwnarr"
+            android:title="menu3" />
+
+        <item
+            android:id="@+id/navigation_subheader"
+            android:title="menu4"
+            android:icon="@mipmap/dwnarr">
+            <menu>
+                <item
+                    android:id="@+id/navigation_sub_item_1"
+                    android:icon="@mipmap/dwnarr"
+                    android:title="41" />
+                <item
+                    android:id="@+id/navigation_sub_item_2"
+                    android:icon="@mipmap/dwnarr"
+                    android:title="42" />
+            </menu>
+        </item>
+    </group>
+</menu>

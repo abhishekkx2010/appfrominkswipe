@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/imagelay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/cover_image"
+        >
+    <RelativeLayout
+        android:id="@+id/profilepicview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/image_background"
+        android:padding="2dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp">
+        <ImageView
+            android:id="@+id/rphoto"
+            android:layout_width="@dimen/imagewidht"
+            android:layout_height="@dimen/imagewidht"
+            android:src="@mipmap/fallb"
+
+            />
+        </RelativeLayout>
+
+        <com.inkswipe.SocialSociety.MyTextView
+            android:id="@+id/rpname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profilepicview"
+            android:text=""
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:maxLines="1"
+            android:textColor="@android:color/white"
+            android:layout_centerVertical="true"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

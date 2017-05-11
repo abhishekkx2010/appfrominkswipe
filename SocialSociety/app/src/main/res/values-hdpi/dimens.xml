@@ -1,0 +1,77 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="login_edittext_top">7dp</dimen>
+    <dimen name="login_button_top">15dp</dimen>
+
+    <dimen name="text_size">15sp</dimen>
+
+    <dimen name="button_padding">10dp</dimen>
+
+
+
+    <!--Register -->
+    <dimen name="imagewidht">90dp</dimen>
+    <dimen name="viewht">1dp</dimen>
+    <dimen name="viewtopht">0dp</dimen>
+    <dimen name="spinnerht">35dp</dimen>
+
+    <!--Profile -->
+    <dimen name="user_layout">120dp</dimen>
+
+
+
+    <!--Society row -->
+
+
+
+    <dimen name="backimght">160dp</dimen>
+
+
+
+
+
+    <!--Scoiety -->
+
+
+
+
+
+
+
+    <!--Register -->
+
+
+    <!--Forget Password-->
+    <dimen name="text_size_forget">15sp</dimen>
+
+    <!--Eventlist Password-->
+    <dimen name="eventbutton_padding">13dp</dimen>
+
+
+    <!--Eventlist Details-->
+
+    <dimen name="imageht">200px</dimen>
+
+    <!--Eventlist Details-->
+
+
+    <!--drawer-->
+    <dimen name="drawer_image">60px</dimen>
+
+
+    <dimen name="shareimage">75dp</dimen>
+
+
+    <dimen name="shareimagepolls">65dp</dimen>
+
+    <dimen name="cgtext_size">16sp</dimen>
+
+    <dimen name="notification_icon">24px</dimen>
+
+    <dimen name="notification_text">7dp</dimen>
+</resources>

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/editScrollview"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.inkswipe.SocialSociety.EditProfile"
+    tools:showIn="@layout/activity_edit_profile"
+    android:scrollbarThumbVertical="@drawable/scroll_bar_color"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/emailHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email Id"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="18dp"/>
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:textSize="@dimen/text_size"
+            android:singleLine="true"
+            android:clickable="false"
+            android:editable="false"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:theme="@style/Edit"
+            />
+        <TextView
+            android:id="@+id/phoneHeaad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone No."
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="18dp"/>
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile No"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:textSize="@dimen/text_size"
+            android:maxLength="10"
+            android:inputType="number"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:theme="@style/Edit"/>
+        <TextView
+            android:id="@+id/genderHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="18dp"/>
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinnerht"
+            android:layout_marginLeft="19dp"
+            android:gravity="center_vertical"
+            android:drawableRight="@mipmap/dwnarr"
+            android:text="Gender"
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginRight="18dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/viewht"
+            android:layout_marginLeft="18dp"
+            android:layout_marginRight="18dp"
+
+            android:background="@android:color/darker_gray"
+            />
+
+
+        <TextView
+            android:id="@+id/addHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="18dp"/>
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:textSize="@dimen/text_size"
+            android:maxLines="2"
+            android:maxLength="100"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:theme="@style/Edit"
+            />
+
+        <TextView
+            android:id="@+id/landmarkHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Landmark"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="18dp"/>
+
+
+        <EditText
+            android:id="@+id/landmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Landmark"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:textSize="@dimen/text_size"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:maxLength="50"
+            android:theme="@style/Edit"
+            />
+        <TextView
+            android:id="@+id/stateHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="State"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="19dp"/>
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinnerht"
+            android:layout_marginLeft="19dp"
+            android:gravity="center_vertical"
+            android:text="State"
+            android:drawableRight="@mipmap/dwnarr"
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginRight="19dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/viewht"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="18dp"
+            android:background="@android:color/darker_gray"
+            />
+        <TextView
+            android:id="@+id/cityHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="19dp"/>
+
+        <TextView
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/spinnerht"
+            android:layout_marginLeft="19dp"
+            android:drawableRight="@mipmap/dwnarr"
+            android:gravity="center_vertical"
+            android:text="City"
+            android:textSize="@dimen/text_size"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:layout_marginRight="19dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="19dp"
+            android:layout_marginRight="18dp"
+            android:background="@android:color/darker_gray"
+            />
+        <TextView
+            android:id="@+id/pinHead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pincode"
+            android:textSize="16dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/black"
+            android:layout_marginLeft="18dp"/>
+
+        <EditText
+            android:id="@+id/pincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pincode"
+            android:textColor="@android:color/black"
+            android:textColorHint="@color/color_hint"
+            android:textSize="@dimen/text_size"
+            android:singleLine="true"
+            android:maxLength="6"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:theme="@style/Edit"/>
+        <LinearLayout
+            android:id="@+id/edsubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fourborder"
+            android:gravity="center"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="@dimen/login_button_top">
+
+            <com.inkswipe.SocialSociety.MyTextView
+                android:id="@+id/loginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:textSize="@dimen/text_size"
+                android:textStyle="bold"
+                android:padding="@dimen/button_padding"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
