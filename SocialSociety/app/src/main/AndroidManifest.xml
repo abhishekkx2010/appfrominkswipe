@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.inkswipe.SocialSociety"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="23"
+        tools:node="merge" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <uses-permission android:name="android.permission.RECEIVE_SMS"></uses-permission>
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <receiver
+            android:name=".CheckConnectivity"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".SmsReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".InternetService"
+            android:enabled="false" />
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Login"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".Profile"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SearchSociety"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_search_society"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <category android:name="android.intent.category.DEFAULT" />
+
+        <activity
+            android:name=".RegisterPreview"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_register_preview"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditProfile"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_edit_profile"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MySociety"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_my_society"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddSociety"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_add_society"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MyProperty"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_my_property"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateAnnouncement"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_create_announcement"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Complaint"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_complaint"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ForgetPassword"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_forget_password"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ResetPassword"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_reset_password"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AddProperty"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_add_property"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EditProperty"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_edit_property"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DashBoard"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_dash_board"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".NotificationApp"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_notification"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Offer"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_offer"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventsList"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_events_list"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateEvent"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_create_event"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EventDetails"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_event_details"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Members"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_members"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreatePoll"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_create_poll"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CreateGroup"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_create_group"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Archivedevent"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_create_group"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Groups"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_groups"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ArchivedClosedPolls"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_archived_closed_polls"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PollDetails"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_archived_closed_polls"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ArchivedPolls"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_archived_closed_polls"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ShareEvent"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_archived_closed_polls"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GroupMembers"
+            android:label="@string/title_activity_group_members"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".GalleryUtil"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserDetailPost"
+            android:label="@string/title_activity_user_detail_post"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TermsCond"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

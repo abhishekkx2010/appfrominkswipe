@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "546683711302",
+    "firebase_url": "https://socialsociety-e035b.firebaseio.com",
+    "project_id": "socialsociety-e035b",
+    "storage_bucket": "socialsociety-e035b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546683711302:android:aa3e9e2200dec777",
+        "android_client_info": {
+          "package_name": "com.inkswipe.SocialSociety"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546683711302-hbqnq9716b1knlt3anjvt9eotqc7fqmi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inkswipe.SocialSociety",
+            "certificate_hash": "AA8A89FE17C52C1E6F91973B629AF78CD1D8A2E2"
+          }
+        },
+        {
+          "client_id": "546683711302-geqvb9qv5dethes9907o4eb9aje3jbbb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inkswipe.SocialSociety",
+            "certificate_hash": "923871553A724621570F1128BA92507CA840A5BF"
+          }
+        },
+        {
+          "client_id": "546683711302-nc1qfbap2ferjn7l4ingc7etg2t0t9r7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJOfY3p46PvsAnTcjLV8vonDeerhQnYSk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546683711302-nc1qfbap2ferjn7l4ingc7etg2t0t9r7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
